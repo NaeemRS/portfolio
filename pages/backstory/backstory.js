@@ -4,12 +4,12 @@ import React, { useState } from "react";
 export default function Backstory() {
   return (
     <>
-      <div className="relative flex items-center justify-center w-full h-screen overflow-hidden  lg:h-screen">
-        <div className="w-full px-0  container-fluid">
+      <div className="relative flex items-center justify-center w-full h-screen overflow-hidden lg:h-screen">
+        <div className="w-full px-0 container-fluid">
           <div className="absolute my-10 lg:left-[7%] 2xl:left-[11%] top-2  h-[80%] border-l-2"></div>
           <div className="container w-full px-0 ml-auto ">
-            <div className="relative flex  w-full">
-              <div className="flex items-center  2xl:w-2/3 lg:w-2/3">
+            <div className="relative flex w-full">
+              <div className="flex items-center 2xl:w-2/3 lg:w-2/3">
                 <div className="flex items-end w-full h-screen">
                   <h1 className=" mb-12  2xl:text-[200px] dark:text-white z-20 lg:text-[120px] md:text-[60px] text-[30px] Vultura">
                     Backstory
@@ -34,9 +34,8 @@ export default function Backstory() {
             />
           </div>
         </div>
-
         <div className="container w-full px-0 ml-auto ">
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] ">
                 {" "}
@@ -52,7 +51,7 @@ export default function Backstory() {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] font-semibold">
                 2017 ---{" "}
@@ -76,7 +75,7 @@ export default function Backstory() {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg  leading-[60px] font-semibold">
                 2018 ---{" "}
@@ -105,7 +104,7 @@ export default function Backstory() {
       <section className="">
         <div className="container w-full px-0 ml-auto ">
           <div className="flex">
-            <div className="ml-auto w-1/2">
+            <div className="w-1/2 ml-auto">
               <img
                 src="/images/banner-left.png"
                 className="w-full  h-[500px]"
@@ -115,7 +114,7 @@ export default function Backstory() {
         </div>
 
         <div className="container w-full px-0 ml-auto ">
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] ">
                 {" "}
@@ -133,7 +132,7 @@ export default function Backstory() {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg selection:leading-[60px] font-semibold">
                 2019 ---{" "}
@@ -143,7 +142,7 @@ export default function Backstory() {
               <h5 className="font-semibold lg:text-[20px] md:text-xl text-lg">
                 Leap of Faith
               </h5>
-              <div className="w-full items-end flex py-3">
+              <div className="flex items-end w-full py-3">
                 <div className="w-2/5 py-3">
                   <img
                     src="/images/banner-left.png"
@@ -170,7 +169,7 @@ export default function Backstory() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lgleading-[60px] font-semibold">
                 2020 ---{" "}
@@ -208,7 +207,7 @@ export default function Backstory() {
       </section>
       <section className="">
         <div className="container w-full px-0 ml-auto ">
-          <div className="flex w-full pb-10 gap-16 ">
+          <div className="flex w-full gap-16 pb-10 ">
             <div className="w-2/3">
               <img
                 src="/images/banner-left.png"
@@ -225,7 +224,7 @@ export default function Backstory() {
         </div>
 
         <div className="container w-full px-0 ml-auto ">
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] font-semibold">
                 2021 ---{" "}
@@ -261,12 +260,12 @@ export default function Backstory() {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap w-full pb-10  ">
+          <div className="flex flex-wrap w-full pb-10 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] font-semibold"></p>
             </div>
             <div className="w-5/6">
-              <div className=" py-3">
+              <div className="py-3 ">
                 <img
                   src="/images/banner-left.png"
                   className="w-full  h-[500px]"
@@ -283,7 +282,7 @@ export default function Backstory() {
               <span> I joined ReactiveSpace.</span>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] font-semibold">
                 2022 ---{" "}
@@ -326,7 +325,7 @@ export default function Backstory() {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap w-full py-10 2xl:pr-20  ">
+          <div className="flex flex-wrap w-full py-10 2xl:pr-20 ">
             <div className="w-1/6">
               <p className="Codec-Pro lg:text-[20px] md:text-xl text-lg leading-[60px] font-semibold">
                 2023 ---{" "}
